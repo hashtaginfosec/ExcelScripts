@@ -44,7 +44,7 @@ print("Controls that exist in v6 version but not in V5.")
 for item in diffArrayV6:
     print("Unique ID " + item)
 
-#Same as above, only reversed to get the difference between v5 and Nadia's worksheet
+#Same as above, only reversed to get the difference between v5 and other worksheet
 diffArrayV5 = tuple(set(arrayV5UniqueID) - set(arrayV6UniqueID))
 print("Controls that exist in V5 but no in v5 version.")
 for item in diffArrayV5:
